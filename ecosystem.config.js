@@ -1,11 +1,11 @@
 module.exports = {
   apps: [
     {
-      name: "yandas-landing",
+      name: "NuxtAppName",
+      port: "3001",
       exec_mode: "cluster",
-      instances: "max", // Or a number of instances
-      script: "./node_modules/nuxt/bin/nuxt.mjs",
-      args: "start",
+      instances: "max",
+      script: "./.output/server/index.mjs",
     },
   ],
 };
