@@ -2,7 +2,10 @@
 export default defineNuxtConfig({
   typescript: { shim: false },
   modules: ["@nuxtjs/tailwindcss"],
-  css: ["@fortawesome/fontawesome-svg-core/styles.css"],
+  css: [
+    "@fortawesome/fontawesome-svg-core/styles.css",
+    "@/assets/css/styles.css",
+  ],
   build: {
     transpile: [
       "@fortawesome/fontawesome-svg-core",

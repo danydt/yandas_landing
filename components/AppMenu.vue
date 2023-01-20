@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col items-center bg-inherit mt-10 z-30 sticky top-0">
+  <main class="sticky top-0 z-30 flex flex-col items-center mt-10 bg-inherit">
     <nav
       class="
         bg-gray-50
@@ -14,7 +14,7 @@
         shadow-xl
       "
     >
-      <div class="w-60 h-14 flex justify-start items-center py-2">
+      <div class="flex items-center justify-start py-2 w-60 h-14">
         <img
           src="https://yandas243.com/icon.png"
           class="h-14"
@@ -22,33 +22,19 @@
           srcset=""
         />
       </div>
-      <div class="flex justify-between px-4 w-96">
+      <div class="md:justify-between md:px-4 md:flex w-96 nav__item">
         <a
           v-for="(link, index) in links"
           :href="link.route"
           :key="index"
-          class="
-            text-neutral-800
-            hover:bg-lime-600 hover:text-white hover:rounded
-            p-2
-          "
+          class="p-2  text-neutral-800 hover:bg-lime-600 hover:text-white hover:rounded"
         >
           {{ link.text }}
         </a>
       </div>
       <div>
         <button
-          class="
-            p-3
-            bg-lime-600
-            rounded-md
-            text-gray-100
-            drop-shadow-sm
-            hover:border-2
-            hover:bg-inherit
-            hover:border-lime-600
-            hover:text-neutral-800
-          "
+          class="p-3 text-gray-100 rounded-md  bg-lime-600 drop-shadow-sm hover:border-2 hover:bg-inherit hover:border-lime-600 hover:text-neutral-800"
         >
           <font-awesome-icon icon="fa-brands fa-whatsapp" />
           Démarrer une discussion

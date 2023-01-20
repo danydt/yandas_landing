@@ -1,0 +1,49 @@
+@media only screen and (max-width: 760px) {
+  .row__to__col {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .full__col {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title__section {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .col_reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 30px;
+    height: auto;
+  }
+
+  .hero__title {
+    font-size: 60px;
+  }
+
+  .hero__description {
+    width: 80%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .sm_top_m {
+    margin-top: 20px;
+  }
+
+  .block__title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav__item {
+    display: none;
+  }
+}

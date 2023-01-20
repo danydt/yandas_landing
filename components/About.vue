@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 max-h-[60vh] flex flex-col" id="about">
+  <section class="flex flex-col bg-gray-100" id="about">
     <main
       class="
         container
@@ -7,12 +7,28 @@
         flex flex-row
         justify-between
         mx-auto
-        py-24
-        max-h-[60vh]
+        md:py-24
+        col_reverse
       "
     >
-      <div class="px-10 min-w-[50%] flex flex-col justify-center">
-        <h3 class="font-sans font-bold text-[48px] uppercase text-neutral-800">
+      <div
+        class="
+          md:px-10 md:max-w-[50%]
+          flex flex-col
+          justify-center
+          full__col
+          mb-[30px]
+        "
+      >
+        <h3
+          class="
+            font-sans font-bold
+            text-[48px]
+            uppercase
+            text-neutral-800
+            title__section
+          "
+        >
           A-propos
         </h3>
 
@@ -39,14 +55,23 @@
           </span>
         </p>
       </div>
-      <div class="px-10 flex flex-row justify-center">
+      <div
+        class="
+          md:max-w-[50%]
+          flex flex-col
+          justify-center
+          items-center
+          px-10
+          full__col
+        "
+      >
         <img
-          class="rounded-3xl h-full -mt-10"
+          class="img-1"
           src="~/assets/images/0.jpg"
           alt="make people happiness | rendre les gens heureux"
         />
         <img
-          class="img-2 rounded-3xl h-full -ml-40 mt-5"
+          class="img-2"
           src="~/assets/images/2.jpg"
           alt="make people happiness | rendre les gens heureux"
         />
@@ -62,4 +87,33 @@ export default {
 </script>
 
 <style scoped>
+.img-1 {
+  height: 320px;
+  border-radius: 15px;
+}
+
+.img-2 {
+  height: 320px;
+  width: 200px;
+  margin-left: 70%;
+  margin-top: -50%;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-1 {
+    height: 160px;
+    border-radius: 7.5px;
+    margin-top: 20px;
+  }
+
+  .img-2 {
+    height: 160px;
+    width: 100px;
+    margin-left: 70%;
+    margin-top: -60%;
+    border-radius: 7.5px;
+    margin-bottom: 20px;
+  }
+} ;
 </style>

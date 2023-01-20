@@ -1,7 +1,24 @@
 <template>
-  <section class="max-h-[80vh] flex flex-col bg-gray-50" id="contact">
+  <section
+    class="
+      md:max-h-[80vh]
+      flex flex-col
+      justify-center
+      items-center
+      bg-gray-50
+      py-10
+    "
+    id="contact"
+  >
     <main
-      class="container max-w-[80%] flex flex-col items-center mx-auto py-20"
+      class="
+        container
+        md:max-w-[80%]
+        flex flex-col
+        items-center
+        md:mx-auto md:py-20
+        sm-top-m
+      "
     >
       <div
         class="
@@ -18,11 +35,19 @@
         "
       >
         <div class="flex flex-col items-center w-full">
-          <h3 class="font-sans font-bold text-[48px] uppercase text-gray-100">
+          <h3
+            class="
+              font-sans font-bold
+              text-[48px]
+              uppercase
+              text-gray-100
+              title__section
+            "
+          >
             Contact
           </h3>
         </div>
-        <div class="grid grid-cols-3 gap-1">
+        <div class="grid grid-cols-3 gap-1 row__to__col">
           <div>
             <h3 class="text-gray-200 font-sans font-semibold text-[18px] my-5">
               Yanda's France
@@ -63,7 +88,6 @@
           </div>
           <div>
             <h3 class="text-gray-200 font-sans font-semibold text-[18px] my-5">
-              <font-awesome-icon icon="fa-flag fa-france" />
               News Letter
             </h3>
             <p class="text-gray-50">
