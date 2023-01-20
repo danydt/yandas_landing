@@ -94,7 +94,7 @@
             <p class="text-gray-50">
               Souscrivez à notre news-letter et rester informer
             </p>
-            <form action="" class="flex flex-col md:flex-row">
+            <form action="" class="flex flex-col">
               <input
                 type="email"
                 name=""
@@ -102,7 +102,7 @@
                 class="px-1 py-2 mt-1 rounded-lg"
               />
               <button
-                class="p-2 mt-2 border-2 rounded-lg  md:mt-0 md:ml-2 text-cyan-50 hover:bg-white hover:border-0 hover:text-lime-700"
+                class="p-2 mt-2 border-2 rounded-lg  text-cyan-50 hover:bg-white hover:border-0 hover:text-lime-700"
               >
                 Souscrire
               </button>
