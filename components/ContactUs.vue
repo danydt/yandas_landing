@@ -24,10 +24,11 @@
         class="
           bg-lime-700
           min-h-[20rem]
-          w-[90%]
+          w-[80%]
           xl:px-30
           lg:px-10
           md:px-10
+          px-5
           py-5
           rounded-xl
           flex flex-col
@@ -44,12 +45,12 @@
               title__section
             "
           >
-            Contact
+            Contacts
           </h3>
         </div>
         <div class="grid grid-cols-3 gap-1 row__to__col">
-          <div>
-            <h3 class="text-gray-200 font-sans font-semibold text-[18px] my-5">
+          <div class="mb-5">
+            <h3 class="text-gray-200 font-sans font-semibold text-[18px] mb-3">
               Yanda's France
             </h3>
             <ul>
@@ -67,8 +68,8 @@
               </li>
             </ul>
           </div>
-          <div>
-            <h3 class="text-gray-200 font-sans font-semibold text-[18px] my-5">
+          <div class="mb-5">
+            <h3 class="text-gray-200 font-sans font-semibold text-[18px] mb-3">
               Yanda's RDC
             </h3>
             <ul>
@@ -86,14 +87,14 @@
               </li>
             </ul>
           </div>
-          <div>
-            <h3 class="text-gray-200 font-sans font-semibold text-[18px] my-5">
+          <div class="mb-5">
+            <h3 class="text-gray-200 font-sans font-semibold text-[18px] mb-5">
               News Letter
             </h3>
             <p class="text-gray-50">
               Souscrivez à notre news-letter et rester informer
             </p>
-            <form action="" class="flex flex-row">
+            <form action="" class="flex flex-col md:flex-row">
               <input
                 type="email"
                 name=""
@@ -101,7 +102,7 @@
                 class="px-1 py-2 mt-1 rounded-lg"
               />
               <button
-                class="p-2 ml-2 border-2 rounded-lg  text-cyan-50 drop-shadow-lg hover:bg-white hover:border-0 hover:text-lime-700"
+                class="p-2 mt-2 border-2 rounded-lg  md:mt-0 md:ml-2 text-cyan-50 hover:bg-white hover:border-0 hover:text-lime-700"
               >
                 Souscrire
               </button>

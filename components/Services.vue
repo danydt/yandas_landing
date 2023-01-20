@@ -114,7 +114,7 @@
             <p class="my-5">
               <a href="#contact" rel="noopener noreferrer">
                 <button class="p-3 text-gray-100 rounded-md bg-lime-700">
-                  Nous contactez
+                  Nous contacter
                 </button>
               </a>
             </p>
@@ -160,7 +160,7 @@
             <p class="my-5">
               <a href="#contact" rel="noopener noreferrer">
                 <button class="p-3 text-gray-100 rounded-md bg-lime-700">
-                  Nous contactez
+                  Nous contacter
                 </button>
               </a>
             </p>

@@ -14,6 +14,7 @@
   .title__section {
     font-size: 32px;
     text-align: center;
+    width: 80%;
   }
 
   .col_reverse {
@@ -39,6 +40,10 @@
 
   .block__title {
     font-size: 24px;
+  }
+
+  .btn-nav {
+    display: none;
   }
 }
 

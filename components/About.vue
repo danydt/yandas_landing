@@ -100,7 +100,7 @@ export default {
   border-radius: 15px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 420px) {
   .img-1 {
     height: 160px;
     border-radius: 7.5px;

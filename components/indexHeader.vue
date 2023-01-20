@@ -4,21 +4,24 @@
       class="
         flex
         container
-        min-w-full min-h-[60vh]
+        min-w-full
+        md:min-h-[60vh]
         bg-lime-700
         md:px-10
         pt-40
         flex-col
         items-center
-        -mt-40
       "
+      :class="headerTop"
     >
       <div class="flex flex-col items-center justify-center">
         <transition
           enter-to-class="animate__animated animate__fadeInUp"
           leave-to-class="animate__animated animate__fadeOutDown"
         >
-          <h2 class="text-white font-sans font-bold text-[90px] hero__title">
+          <h2
+            class="text-white mt-5 font-sans font-bold text-[90px] hero__title"
+          >
             Yanda's
           </h2>
         </transition>
@@ -40,3 +43,12 @@
     </header>
   </main>
 </template>
+
+<script>
+export default {
+  name: "indexHeader",
+  props: {
+    headerTop: String,
+  },
+};
+</script>
